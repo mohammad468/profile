@@ -11,7 +11,21 @@
 .sahel-bl {
   font-family: "sahel black";
 }
-.brand-logo-img{
+.brand-logo-img {
   width: 2rem;
   cursor: pointer;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  .profile-icon {
+    transition: all 170ms ease-in-out;
+  }
+  &:hover {
+    .profile-icon {
+      color: $blue-400;
+    }
+  }
 }

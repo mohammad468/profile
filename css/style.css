@@ -11970,4 +11970,25 @@ fieldset:disabled .btn {
   width: 2rem;
   cursor: pointer;
 }
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.profile .profile-icon {
+  -webkit-transition: all 170ms ease-in-out;
+  transition: all 170ms ease-in-out;
+}
+
+.profile:hover .profile-icon {
+  color: #3d8bfd;
+}
 /*# sourceMappingURL=style.css.map */
